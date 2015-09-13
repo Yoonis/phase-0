@@ -52,4 +52,11 @@ Can you remember what each of the following does of the top of your head? Write 
 
 ###1.4 Forking and Cloning 
 
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+To create a new repo, visit your GitHub page, select +, and choose New Repo. Fill in the missing fields and create. 
+To fork a repo, click fork repo on the top right of the repo page in question. 
+To clone a repo, copy the clone URL from the bottom right of the repo page, open your terminal, type "git clone" and paste the URL, and hit enter. You should be able to see the cloned repo when you type ls. 
+Forking prevents you from overwriting the original content with your changes, and allows you to take advantage of the pre-existing repo content rather than starting from scratch by creating a new one.
 
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+The setup process was fairly straightforward. It was just a matter of learning the GitHub interface.
