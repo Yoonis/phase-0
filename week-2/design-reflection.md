@@ -1,4 +1,4 @@
-![Site Map Draft](imgs/site-map.png)
+![Site Map Draft](img/site-map.png)
 
 <b>What are the 6 Phases of Web Design?</b>  
 
