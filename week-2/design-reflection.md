@@ -40,4 +40,4 @@ I used Slickplan to design my site map, and signing up and trying out the interf
 
 On another note, now that these reflections are getting longer, I also took extra time to learn a bit more about Markdown syntax. 
 
-After my first push to master, my image was not working. I followed the \![Alt text](/path/to/img.jpg) instruction externally linked in Release 3, but the <b>/path/to/</b> portion threw me off. I thought the path was intended to be our own local directory path, but after troubleshooting, it seems the path should be the remote GitHub path to the image that I had also pushed up to master.
+After my first push to master, my image was not working. I followed the `![Alt text](/path/to/img.jpg)` instruction externally linked in Release 3, but the <b>/path/to/</b> portion threw me off. I thought the path was intended to be our own local directory path, but after troubleshooting, it seems the path should be the remote GitHub path to the image that I had also pushed up to master.
