@@ -1,5 +1,5 @@
-![Blog Index Wireframe](/Yoonis.github.io/blog/wireframe-blog-index.png)
-![Main Index Wireframe](/Yoonis.github.io/imgs/wireframe-index.png)
+![Blog Index Wireframe](imgs/wireframe-blog-index.png)
+![Main Index Wireframe](imgs/wireframe-index.png)
 
 What is a wireframe?
 
