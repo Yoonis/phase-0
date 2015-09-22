@@ -1,0 +1,50 @@
+html {
+  background-color: #ffffff;
+}
+
+body {
+    color: #000080;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+a {
+ color: #80008;  
+}
+
+.col {
+   float: left;
+   width: 50%;
+}
+
+.description {
+	font-size: 0.5em;
+}
+
+.header {
+	font-weight: bold;
+	text-align: center;
+}
+
+.address {
+	font-size: 0.75em;
+	margin: 0px;
+}
+
+.block {
+	display: block;
+}
+
+.First-letter {
+	font-size: 1.5em;
+}
+
+.inc {
+	font-size: 0.75em;
+}
+
+h3 {
+	margin: 0px;
+}
