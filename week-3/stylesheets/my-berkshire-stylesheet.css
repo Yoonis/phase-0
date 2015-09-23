@@ -11,13 +11,12 @@ a:visited {
 }
 
 a {
- color: #80008;  
+ color: #80008;
 }
 
 .col {
    float: left;
    width: 50%;
-   height: 280px;
 }
 
 .description {
@@ -39,7 +38,7 @@ a {
 	display: block;
 }
 
-.First-letter {
+.first-letter {
 	font-size: 1.5em;
 }
 
@@ -51,7 +50,7 @@ h3 {
 	margin: 0px;
 }
 
-.Geico {
+.geico {
 	text-align: center;
 	font-size: 0.75em;
 	}
@@ -70,8 +69,9 @@ h3 {
 
 .border {
 	border: 1px inset;
+	clear: both;
 }
 
 li {
-	margin: 12px;
+	padding: 10px;
 }
