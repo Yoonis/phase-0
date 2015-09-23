@@ -44,7 +44,7 @@ a {
 	font-size: 1.5em;
 }
 
-.inc {
+.small-font {
 	font-size: 0.75em;
 }
 
@@ -56,14 +56,6 @@ h3 {
 	text-align: center;
 	font-size: 0.75em;
 	}
-
-.comments {
-	font-size: 0.75em;	
-}
-
-.copyright {
-	font-size: 0.75em;	
-}
 
 .bolding {
 	font-weight: bold;
