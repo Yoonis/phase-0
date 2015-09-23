@@ -4,6 +4,8 @@ html {
 
 body {
     color: #000080;
+    background: url(../imgs/more-buffett-dollars.png) white;
+   	background-position: center;
 }
 
 a:visited {
@@ -17,7 +19,7 @@ a {
 .col {
    float: left;
    width: 50%;
-   height: 280px;
+   height: 425px;
 }
 
 .description {
