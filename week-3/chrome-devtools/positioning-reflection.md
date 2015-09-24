@@ -29,10 +29,10 @@ Any CSS property that allows you to manipulate element sizing will suffice here.
 
 <b>3. What are the differences between Absolute, Fixed, Static, and Relative positioning? Which did you find easiest to use? Which was most difficult?</b>
 
-- Absolute: The element is taken entirely out of the flow of the page layout. Its position is dependent on the nearest element with a relative position, called the nearest positioned ancestor. If such an element doesn't exist, then the absolutely positioned element will be relative to the initial page container.
-- Fixed: There is no space left for the element. It's positioned relative to the screen's view and does not move when a user scrolls through the page. This fixed element is on every single page.
-- Static: An element is laid out in its current position in the flow of the overall page layout. Top, bottom, right, left, and z-index properties will not apply.
-- Relative: The element's position depends on the position of the elements around it. When adjusting an element with a relative position, it will leave an empty space where it would have been if it weren't adjusted.
+- Absolute: The element is taken entirely out of the flow of the page layout. Its position is dependent on the nearest element with a position that is not the default static position (sometimes called the nearest positioned ancestor). If such an element doesn't exist, then the absolutely positioned element will be relative to the initial page container, which is the <html> element.
+- Fixed: There is no space left for the element. It's positioned relative to the screen's viewport and stays put when a user scrolls through the page. This fixed element is on every single continuously scrolling page.
+- Static: This is the default, implied position of all elements. An element is laid out in its current position in the flow of the overall page layout. Top, bottom, right, left, and z-index properties will not apply.
+- Relative: The element's position is not relative to any other elements. It is relative to its own static position. When adjusting an element with a relative position, it will leave an empty space where it would have been if it were static.
 
 Fixed positions were the easiest to use because they are the easiest to understand. Second most used was relative positioning. We had no use for static positions in the challenges, and absolute positioning is personally the hardest to grasp.
 
