@@ -1,14 +1,22 @@
 3.4 Exercise Screenshots
 
-1. ![Ex1](imgs/3.4_Exercise-1.png)  
-2. ![Ex2](imgs/3.4_Exercise-2.png)  
-4. ![Ex3](imgs/3.4_Exercise-3.png)  
-3. ![Ex4](imgs/3.4_Exercise-4.png)  
-5. ![Ex5](imgs/3.4_Exercise-5.png)  
-6. ![Ex6](imgs/3.4_Exercise-6.png)  
-7. ![Ex7](imgs/3.4_Exercise-7.png)  
-8. ![Ex8](imgs/3.4_Exercise-8.png)  
-9. ![Ex9](imgs/3.4_Exercise-9.png)  
+1. ![Ex1](imgs/3.4_Exercise-1.png)
+
+2. ![Ex2](imgs/3.4_Exercise-2.png) 
+
+3. ![Ex3](imgs/3.4_Exercise-3.png)
+
+4. ![Ex4](imgs/3.4_Exercise-4.png)
+
+5. ![Ex5](imgs/3.4_Exercise-5.png)
+
+6. ![Ex6](imgs/3.4_Exercise-6.png)
+
+7. ![Ex7](imgs/3.4_Exercise-7.png)
+
+8. ![Ex8](imgs/3.4_Exercise-8.png)
+
+9. ![Ex9](imgs/3.4_Exercise-9.png)
   
 
 3.4 Challenge Reflection
