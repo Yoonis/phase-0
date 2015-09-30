@@ -5,16 +5,6 @@
 
 # Your Solution Below
 
-def leap_year?(year)
-	if year%400 == 0
-		return true
-	end
-	if year%100 == 0
-		return false
-	end
-	if year%4 == 0
-		return true
-	else 
-		return false
-	end
+def leap_year?(yr)
+	yr % 4 == 0 && (yr % 100 != 0 || yr % 400 == 0)
 end
