@@ -1,0 +1,24 @@
+body {
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    background: #3692CC;
+}
+
+.column-1 {
+    width: 49%;
+    display: inline-block;
+    background-color:#FFA495;
+}
+.column-2 {
+    background-color:#FF5E78;
+    width: 49%;
+    display: inline-block;
+    vertical-align:top;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+}
