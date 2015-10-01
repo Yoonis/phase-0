@@ -25,7 +25,7 @@ puts "I think " + num.to_s + " is a better number."
 Release 6: Reflection
 
 1. How do you define a local variable?
-A local variable is an object that stores information. The same variable name can be reused, but the most recent stored information will overwrite any previous stored information.
+Local variable names start with a lowercase letter or an underscore and are made up of alphanumeric characters and underscores. The same variable name can be reused, but the most recent stored information will overwrite any previous stored information. Additionally, a local variable is called local because it's only valid to the scope of the method it was created in. 
 
 How do you define a method?
 A method is an object that can be called on another object in order to execute an operation. The method encapsulates code for the operation.
