@@ -11,5 +11,3 @@ def factorial(num)
 	end
 	return brain
 end
-
-puts factorial(5)
