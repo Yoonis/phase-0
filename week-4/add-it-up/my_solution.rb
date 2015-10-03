@@ -63,4 +63,7 @@ return "#{sentence}."
 end
 
 # 6. sentence_maker refactored solution
-# Could not refactor further.
+
+def sentence_maker(ary)
+return "#{ary.join(' ')}.".capitalize.to_s
+end
