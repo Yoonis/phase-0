@@ -55,13 +55,14 @@ end
 # 3. Refactored Solution
 def pad!(array, min_size, value = nil)
   (min_size - array.length).times {array.push value}
-  return array if array.length >= min_size else array_2
+  (array.length >= min_size) ? array : array_2
 end
 
 def pad(array, min_size, value = nil)
   array_2 = array.dup
   (min_size - array.length).times {array_2.push value}
-  array if array.length >= min_size else array_2
+  array if array.length >= min_size
+  array_2
 end
 
 # 4. Reflection
