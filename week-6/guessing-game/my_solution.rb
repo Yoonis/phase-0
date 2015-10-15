@@ -8,8 +8,20 @@ Input: An integer "answer" when starting a new game, and an integer "guess" for 
 Output: For the guess method, if guess is higher than answer, return :high. If guess is lower, return :low. And if guess is equal, return :correct. For the solved? method, return true if guess is the same as answer, otherwise return false.
 
 Steps: 
+INIT GuessingGame class that takes "answer" as argument
+  set instance variable "answer" to answer
+END method
 
+DEF guess method that takes "guess" as argument
+  set instance variable "guess" to guess
+  return :high IF guess is greater than answer
+  return :low IF guess is less than answer
+  return :correct IF guess is equal to answer
+END method
 
+DEF solved? method
+  method will return true IF guess is equal to answer
+END method
 =end
 
 # Initial Solution
