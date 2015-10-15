@@ -36,24 +36,23 @@ class Die
   end
 
   def roll
-    @labels.sample
+    @roll = @labels.sample
   end
 end
 
 # Refactored Solution
 
 class Die
+  attr_reader :sides
+  
   def initialize(labels)
     @labels = labels
     return raise ArgumentError.new("Array cannot be empty") if labels.length == 0
-  end
-
-  def sides
-    @labels.length
+    @sides = @labels.length
   end
 
   def roll
-    @labels.sample
+    @roll = @labels.sample
   end
 end
 
