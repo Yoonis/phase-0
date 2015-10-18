@@ -48,7 +48,7 @@ number_array.each do |element|
   end
 end
 
-# Refactor Release 3:
+# REFACTOR RELEASE 3:
 
 number_array.map do |x|
   x.kind_of?(Array) ? x.each { |inner| p inner+5 } : (p x+5)
@@ -67,9 +67,7 @@ startup_names.each do |name|
         p inner + "ly"
       end
     end
-  end
-  
-  if name.kind_of?(String)
+  elsif name.kind_of?(String)
     p name + "ly"
   end
 end
