@@ -45,7 +45,7 @@ Create class BingoBoard
 END class
 
 =end
-
+=begin
 # Initial Solution
 
 class BingoBoard
@@ -106,6 +106,37 @@ class BingoBoard
     end
   end
 end
+=end
+
+# REFACTORED BASED ON FEEDBACK
+
+class BingoBoard
+  def initialize(board)
+    @bingo_board = board
+  end
+
+  @@bingo_columns = {"B" => 0, "I" => 1, "N" => 2, "G" => 3, "O" => 4}
+
+  def generate
+    letter = @@bingo_columns.keys.sample
+    @num = rand(1..100).to_s
+    @column = @@bingo_columns[letter]
+    p letter + @num
+  end
+
+  def check
+    found_match = false
+    while !found_match do
+      generate
+      @bingo_board.each do |row|
+        if row[@column] == @num.to_i
+          found_match = true && row[@column] = "X"
+        end
+      end
+    end
+    @bingo_board.each {|row| print "#{row}\n"}
+  end
+end
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
 board = [[47, 44, 71, 8, 88],
@@ -117,6 +148,7 @@ board = [[47, 44, 71, 8, 88],
 new_game = BingoBoard.new(board)
 new_game.generate
 new_game.check
+
 
 =begin 
 #Reflection
