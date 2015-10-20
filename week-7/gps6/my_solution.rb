@@ -51,8 +51,7 @@ class VirusPredictor
     when @population_density >= 150 then speed += 1
     when @population_density >= 100 then speed += 1.5
     when @population_density >= 50 then speed += 2
-    else
-      speed += 2.5
+    else speed += 2.5
     end
   end
 end
