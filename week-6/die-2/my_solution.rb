@@ -28,7 +28,7 @@ END method
 class Die
   def initialize(labels)
     @labels = labels
-    return raise ArgumentError.new("Array cannot be empty") if labels.length == 0
+    raise ArgumentError.new("Array cannot be empty") if labels.length == 0
   end
 
   def sides
@@ -47,8 +47,8 @@ class Die
   
   def initialize(labels)
     @labels = labels
-    return raise ArgumentError.new("Array cannot be empty") if labels.length == 0
-    @sides = @labels.length
+    raise ArgumentError.new("Array cannot be empty") if labels.length == 0
+    @sides = labels.length
   end
 
   def roll
