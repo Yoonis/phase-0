@@ -64,7 +64,7 @@ class CreditCard
   end
 
   def check_card
-    digits = @card.to_s.split('').to_a
+    digits = @card.to_s.split('')
     digits.each_with_index do |digit, index| 
       (digit.replace (digit.to_i*2).to_s) if index % 2 == 0
     end
