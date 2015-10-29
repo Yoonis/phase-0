@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Bruno Zatta
+// This challenge took me [3.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -124,7 +124,7 @@ for(var x in votes) {
 // No, this was done with for loops and if statements.
 
 // What concepts were solidified in the process of working through this challenge?
-// If object1 has a property object2, then object1[property] will NOT return object2. It will instead return the property of object2.
+// If object1 has a property1, and property1 has an object2, and object2 has a property2, then object1[property1][object2] will evaluate to property2.
 
 
 // __________________________________________
