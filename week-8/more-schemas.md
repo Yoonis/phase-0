@@ -15,10 +15,10 @@ This is a database where Table A has a direct, unique relationship with Table B.
 You would use one when you want to establish a table pairing of unique objects, where one object may not necessarily always have its pair value.<br><br>
 
 <b>What is a many-to-many database?</b><br>
-Table A may contain many types of Table B, and Table B may contain many types of Table A. For example, one Author can write many Books, and one Book can be written by many Authors. This information can be selectively viewed in a join table for specific overlapping occurrences.<br><br> 
+Table A may contain many types of Table B, and Table B may contain many types of Table A. This information can be selectively viewed in a join table for specific overlapping occurrences.<br><br> 
 
 <b>When would you use a many-to-many database? (Think generally, not in terms of the example you created).</b><br>
-You'd use one to illustrate all the relationships 2 objects may have with each other.
+You'd use one to illustrate all the relationships 2 objects may have with each other. For example, one Author can write many Books, and one Book can be written by many Authors.<br><br>
 
 <b>What is confusing about database schemas? What makes sense?</b><br>
 Schemas are confusing in that it's hard to structure all the fields under each one since they are kind of like open ended questions. The one-to-one, one-to-many, and many-to-many concepts make sense.
